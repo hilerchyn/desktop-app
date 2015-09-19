@@ -1757,10 +1757,10 @@ function setMacTopMenu() {
 	var isMac_ = isMac();
   var template = [
     {
-      label: 'Leanote',
+      label: '才子社',
       submenu: [
         {
-          label: 'About Leanote',
+          label: '关于 才子社',
           selector: 'orderFrontStandardAboutPanel:'
         },
         {
@@ -1774,7 +1774,7 @@ function setMacTopMenu() {
           type: 'separator'
         },
         {
-          label: 'Hide Leanote',
+          label: 'Hide 才子社',
           accelerator: 'Command+H',
           selector: 'hide:'
         },
@@ -1916,7 +1916,7 @@ function userMenu() {
 	function menu() {
 		var me = this;
 		// this.target = '';
-		UserInfo.Host = UserInfo.Host || 'http://leanote.com';
+		UserInfo.Host = UserInfo.Host || 'http://caizi.org';
 		var shortHost = UserInfo.Host;
 		var ret = /http(s*):\/\/([a-zA-Z0-9\.\-]+)/.exec(shortHost);
 		if(ret && ret.length == 3) {

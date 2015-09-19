@@ -59,10 +59,10 @@ function setMenu() {
   var isMac = process.platform == 'darwin';
   var template = [
     {
-      label: 'Leanote',
+      label: '才子社',
       submenu: [
         {
-          label: 'About Leanote',
+          label: '关于 才子社',
           selector: 'orderFrontStandardAboutPanel:'
         },
         {
