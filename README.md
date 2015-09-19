@@ -46,3 +46,14 @@ GNU General Public License for more details.
 
 Leanote destop app is licensed under the GPL v2.
 ```
+
+### build commands
+
+c:\Users\Administrator\Desktop\desktop-app>electron-packager ./src CaiZiArticle
+--platform=win32 --arch=ia32 --version=0.33.0 --overwrite --out=./dist --icon=./
+leanote_icon_blue.ico --asar
+
+
+c:\Users\Administrator\Desktop\desktop-app>electron-packager ./src CaiZiArticle
+--platform=darwin --arch=x64 --version=0.33.0 --overwrite --out=./dist --icon=./
+leanote_icon_blue.icns --asar
