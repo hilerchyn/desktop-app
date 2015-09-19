@@ -21,5 +21,5 @@ var Config = {
         }
     ],
     "lang": "zh-cn",
-    "theme": ""
+    "theme": "black"
 };

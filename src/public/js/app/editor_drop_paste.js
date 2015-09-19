@@ -79,7 +79,7 @@ define('editor_drop_paste', ['jquery.ui.widget', 'fileupload'], function(){
 			var imgElm;
 			// 先显示loading...
 			d.id = '__mcenew' + (i++);
-			d.src = "http://leanote.com/images/loading-24.gif";
+			d.src = "http://caizi.org/images/loading-24.gif";
 			imgElm = dom.createHTML('img', d);
 			tinymce.activeEditor.insertContent(imgElm);
 			imgElm = dom.get(d.id);

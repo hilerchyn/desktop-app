@@ -39526,9 +39526,9 @@ define('core',[
 		// 弹框显示markdown语法
 		$('#wmd-help-button').click(function() {
             // life
-            var url = 'http://leanote.com/blog/post/531b263bdfeb2c0ea9000002';
+            var url = 'http://caizi.org/blog/post/admin/Markdown-Manual';
             openExternal(url);
-	        // window.open("http://leanote.com/blog/view/531b263bdfeb2c0ea9000002");
+	        // window.open("http://caizi.org/blog/view/531b263bdfeb2c0ea9000002");
 		});
 
 		// Load images
@@ -42457,7 +42457,7 @@ define('editor_drop_paste', ['jquery.ui.widget', 'fileupload'], function(){
 			var imgElm;
 			// 先显示loading...
 			d.id = '__mcenew' + (i++);
-			d.src = "http://leanote.com/images/loading-24.gif";
+			d.src = "http://caizi.org/images/loading-24.gif";
 			imgElm = dom.createHTML('img', d);
 			tinymce.activeEditor.insertContent(imgElm);
 			imgElm = dom.get(d.id);
@@ -42672,7 +42672,7 @@ define('editor_drop_paste', ['jquery.ui.widget', 'fileupload'], function(){
 	            var jqXHR = data.submit();
 				/*
 				d.id = '__mcenew' + (new Date()).getTime();
-				d.src = "http://leanote.com/images/loading-24.gif"; // 写死了
+				d.src = "http://caizi.org/images/loading-24.gif"; // 写死了
 				var img = '<img src="' + d.src + '" id="' + d.id + '" />';
 				editor.insertContent(img);
 				var imgElm = $(d.id);
@@ -42693,7 +42693,7 @@ define('editor_drop_paste', ['jquery.ui.widget', 'fileupload'], function(){
 				var dom = editor.dom;
 				var d = {};						
 				d.id = '__mcenew';
-				d.src = "http://leanote.com/images/loading-24.gif"; // 写死了
+				d.src = "http://caizi.org/images/loading-24.gif"; // 写死了
 				editor.insertContent(dom.createHTML('img', d));
 				var imgElm = dom.get('__mcenew');
 			    $.ajax({url: "/file/pasteImage", contentType:false, processData:false , data: c, type: "POST"}

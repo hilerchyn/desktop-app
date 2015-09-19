@@ -125,7 +125,7 @@ tinymce.PluginManager.add('leaui_image', function(editor, url) {
 								var imgElm;
 								// 先显示loading...
 								d.id = '__mcenew' + i;
-								d.src = "http://leanote.com/images/loading-24.gif";
+								d.src = "http://caizi.org/images/loading-24.gif";
 								imgElm = dom.createHTML('img', d);
 								editor.insertContent(imgElm);
 								imgElm = dom.get(d.id);
