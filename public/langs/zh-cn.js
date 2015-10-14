@@ -273,7 +273,7 @@
     "The minimum password length is 6": "密码长度最少6位",
     "Self-hosted Service": "自建服务",
     "Create Local Account": "创建本地帐户",
-    "Sign in to Leanote": "登录到Leanote",
+    "Sign in to Leanote": "登录到才子社",
     "Confirm password": "确认密码",
     "Username": "用户名",
     "User exists": "用户已存在",
